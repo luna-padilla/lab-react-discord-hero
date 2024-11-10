@@ -1,10 +1,11 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 2rem;
   text-align: center;
   background-color: rgb(9, 105, 218);
-} 
+
+}
 
 h1,
 h2,
@@ -15,20 +16,78 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-p,span, a, li, div  {
+p,
+span,
+a,
+li,
+div {
   font-family: 'Roboto', sans-serif;
 }
-.navbar{
- 
+
+.navbar {
+  width: 1280px;
+  padding: 50px 3px;
   display: flex;
   justify-content: space-between;
-align-items: center;
-  width: 1000px;
-  height: 100px;
+  align-items: center;
+  margin-bottom: 40px;
+
 }
-.logo img{
+
+.logo img {
   width: 150px;
 }
-.hamburger img{
+
+.hamburger img {
   width: 50px;
+}
+
+.colorText {
+  color: rgb(255, 255, 255);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.title {
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.paragraph {
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+
+.button{
+  border-radius: 30px ;
+}
+.buttonBlack{
+background-color: black;
+color: white;
+padding: 15px 20px;
+}
+.buttonWhite{
+background-color:white ;
+color: black;
+padding: 15px 20px;
+}
+.positionButton{
+  display: flex;
+  margin:10px
+
+}
+.imgBackground {
+  background-image: url("./assets/discord-background.png");
+  background-size:700px ;
+  background-position:500px 450px;
+  background-repeat: no-repeat;
+}
+.altoApp{
+  height: 850px;
 }
